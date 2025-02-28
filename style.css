@@ -10,4 +10,11 @@ background-color:rgb(222,240,247);
         z-index:4;
         left:30px;
        }
+.camo{
+        width: 250px;
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            z-index: 1;
+}
 
