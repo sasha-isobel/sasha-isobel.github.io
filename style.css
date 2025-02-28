@@ -1,11 +1,7 @@
-h1{
-color:blue;
-font-family: "Helvetica Neue",  sans-serif;
-}
 body {
 background-color:rgb(222,240,247);
 }
-#title {color:white;
+h1 {color:white;
        position:absolute;
         z-index:4;
         left:30px;
