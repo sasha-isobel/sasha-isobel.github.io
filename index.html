@@ -1,71 +1,187 @@
-<!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="https://github.com/sasha-isobel/sasha-isobel.github.io/blob/main/style.css">
 
+<!DOCTYPE html>
 <html>
-  <head>
-     <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
         <title>Project: Website Assignment</title>
-  </head>
- <h1>You're invited to a...</h1>
-        <h2 id = "heading">New Year's Eve party!</h2>
-    <img class="photo"src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/seasonal/fireworks-in-sky.png"alt="fireworks" width="300">
-        
-        <img id="star" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/cute/Star.png" height="200">
-        <img id="star2" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/cute/Star.png" width="80">
-        <p>The details:</p>
+
+<style>
+p {
+    font-family:Geneva, Verdana, sans-serif;
+}
+.intro{
+    background: rgb(219, 235, 255);
+    width: 80%;
+}
+  #camo {
+            width: 75em;
+            height: 300px;
+            position: absolute;
+            margin: 10px;
+            z-index: 1;
+        }
+
+
+             h1 {
+                font-family: Copperplate, Papyrus, fantasy;
+                color: ghostwhite;
+                text-align: center;
+            position: absolute;
+            z-index: 4;
+            margin-left: 5em;
+               margin-top: 20px;
+            font-size:30px ;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+          -1px 1px 0 #000, 1px 1px 0 #000; color: ghostwhite;
+        }
+
+         .shelter {
+                color: sandybrown;
+            }
+            h2.shelter{
+                background-color:sandybrown;
+                color:white;
+                
+            }
+            .fire {
+                color: palevioletred;
+            }
+            h2.fire {
+                background-color:palevioletred;
+                color:white;
+               
+            }
+            .weather {
+                color: skyblue;
+            }
+            h2.weather {
+                background-color:skyblue;
+              color:white;
+                
+            }
+
+            #container {
+                width: 98em;
+                margin: auto;
+                border: 2px solid lightslategray;
+                border-top: 10px solid lightslategray;
+                padding: 15px;
+            }
+
+            #shelter-pic
+            {
+                float: left;
+                margin-right: 25px;
+                margin-bottom: 30px;
+            }
+            #fire-pic {
+                float: left;
+                margin-right: 25px;
+                margin-bottom: 30px;
+
+            }
+
+            #weather-pic {
+                float: left;
+                margin-right: 25px;
+                margin-bottom: 30px;
+            }
+  #footer {
+                background-color: rgb(219, 235, 255);
+                padding: 6px;
+                clear: both;
+                font-family: Copperplate, Papyrus, fantasy;
+            }
+           </style>
+
+</head>
+    <body>
+        <div id="container">
+    <img src="https://t3.ftcdn.net/jpg/08/64/19/40/360_F_864194025_80re83pdjDKsDhwJlzoM93w4v1aL1rlp.jpg" id="camo">
+        <h1><br><br><br></strong>NATURE SURVIVAL.ca</strong></h1>
+        <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>by Sasha Vila Rumszewicz </p>
+        <div class="intro"><p>Hi there! my name is Sasha and I love camping! I go camping every summer and I like watching shows such as "Survivor" and "Survivorman" because they're in the nature. <br>Here are a few my favourite provincial/national parks that I've visited:</p>
         <ul>
-            <li>Where: Time's Square, NY</li>
-            <li>Live music!</li>
-            <li>Dress fun and warm</li>
-            <li>from 6:00 pm to 12:30 am</li>
+            <li>Bon Echo - <em>Ontario Provincial Park</em>
+            <li>Killbear - <em>Ontario Provincial Park</em>
+            <li>Thingvellir - <em>Icelandic National Park</em>
+            <li>Silent Lake - <em>Ontario Provincial Park</em>
         </ul>
-        
-        <h4>Events:</h4>
-        <table>
+          <p>
+    <a target="_blank" href="https://www.ontarioparks.ca/en">The Ontario Provincial Parks website </a>
+</p>
+</div>
+   <h4>The key elements to survive outdoors:</h4>
+   <p><strong class="shelter">shelter</strong>, <strong class="fire">fire</strong>, and being prepared for the <strong class="weather">weather</strong>.</p>     
+<h2 class="shelter">SHELTER</h2>
+
+<p>Shelters...intro <br><br><img id="shelter-pic" src="https://www.americanoutdoor.guide/wp-content/uploads/2018/02/ASGFM-1604-SHELTER-05.jpg" width=200px> <br>Here are steps to building a shelter using natural materails found in a forest environment:</p>
+
+<ol>
+    <li><strong>Select a site -</strong> Choose somewhere relatively flat, free of lose rocks, close to a source of drinking water and wood for building/burning. Try to avoid being hit by strong winds and away from bugs.
+    <li><strong>The bed -</strong> Don't sleep on the ground because it will make your body lose heat! Instead, elevate yourself above the ground using logs. Then add a layer of bedding made from boughs/leaves/grass.
+    <li><strong>The shelter frame-</strong> Using big sticks to build with, create an angled pitch to avoid rain/snow leaking in. Next, insulate the whole surface/in between any cracks with boughs of evergreen trees/grass/moss/bark etc. 
+</ol>
+<br>
+          <h2 class="fire">FIRE</h2>
+<p>Fire little explanation...<br><br>
+    <img id="fire-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrd5gUpXT3YMUQMHUJ8TQuBK4T3W9SeX9Osw&s" width=200px>
+    <br>Here are some steps to making a controlled fire:</p>
+
+<ol>
+    <li><strong>Carefully select a site -</strong> Make sure its sheltered from the elements such as rain, wind and snow so the fire doesn't get put out. The site should also be away from anything flammable like overhanging branches, roots, etc.
+    <li><strong>Start the flame -</strong> Some fire starting tools include: a lighter, matches, a flint striker, or a <a target="_blank" href="https://www.bcoutdoorsmagazine.com/fire-by-friction-learning-the-art-of-the-fire-bow/">fire bow </a>. Use the fire starting tool to create embers with tinder (fluffy, dead, dry plant material like birch bark, cattails, grasses, etc.)
+    <li><strong>Build with kindling/maintaining -</strong> After you have a small flame burning off of the tinder, add in small pieces of kindling (small twigs, sticks that increase in thickness)
+    <li><strong>Putting the fire out -</strong> Stop adding fuel to the fire and after a while it'll start to go down. To quickly extinguish the flame, drown it with water. Mix the embers with soil and dirt, making sure it's wet so the fire doesn't start again.
+</ol>
+
+<h2 class="weather">WEATHER</h2>
+<p>One of the only things you can't control in a survival situation is the weather! It can be unpredictable so it's vital to be prepared and ready.</p>
+              <img id="weather-pic" src="https://cdn.hswstatic.com/gif/how-to-survive-a-storm-3.jpg" width=200px>
+<h3>Dangerous Weather</h3>
+<ul>
+    <li><strong>Thunder/lightning:</strong> stay in your shelter
+    <li><strong>Blizzards/windchill:</strong> don't go out during whiteout conditions! Layer your clothing.
+    </ul>
+<br>
+<table>
     <thead>
         <tr>
-            <th>Performance</th>
-            <th>time</th>
-         
+            <th>Region</th>
+            <th>Climate considerations</th>
         </tr>
 
         </thead>
         <tbody>
+           
             <tr>
-                <td>Carrie Underwood</td>
-                <td>6:00 pm</td>
-            
-            </tr>
-            <tr>
-                <td>Jonas Brothers</td>
-                <td>7:00 pm</td>
-               
+                <td>Arctic/polar</td>
+                <td>windshill (result of temperatures and wind), snowstorms, blizzards</td>
+                
             </tr>
              <tr>
-                <td>AGNEW (NY dance group)</td>
-                <td>8:00 pm </td>
+                <td>Jungles</td>
+                <td>river levels rising as a result of a distant storm </td>
+               </tr>
+             <tr>
+                <td>Deserts/canyons</td>
+                <td>sandstorms, heatstroke </td>
                 
             </tr>
             <tr>
-                <td>TLC</td>
-                <td>9:00 pm </td>
+                <td>Costal</td>
+                <td>hurricanes, tsunamis, violent weather changes </td>
                 
             </tr>
             <tr>
-                <td>Rita Ora</td>
-                <td>10:00 pm</td>
-                
-            </tr>
-            <tr>
-                <td>Mark Ambor</td>
-                <td>11:00 pm</td>
+                <td>Mountain</td>
+                <td>snowfall, blizzards, lightning</td>
                 
             </tr>
         </tbody>
 </table>
-<h5>The ball drop is at midnight!</h5>
-<img id="star3" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/cute/Star.png" width="90px">
-        <a target="_blank" href="https://www.cbsnews.com/news/times-square-performers-new-years-eve-ball-drop-2025/"> RSVP here </a>
+
+<p id="footer">NATURE SURVIVAL.ca by Sasha Vila Rumszewicz</p>
+</div>
     </body>
 </html>
-              
