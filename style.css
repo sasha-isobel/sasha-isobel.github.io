@@ -8,10 +8,11 @@ p {
     width: 80%;
 }
   #camo {
-            height:200px;
-            position: absolute;
-            margin: 10px;
-            z-index: 1;
+
+        display:block;
+                margin-left:auto;
+                margin-right:auto;
+                width:70%;
         }
 
 
