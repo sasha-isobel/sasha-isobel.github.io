@@ -62,10 +62,11 @@ body{
             }
 
             #container {
-                width: 98em;
+                width: 100em;
                 margin: auto;
                 border: 2px solid lightslategray;
                 border-top: 10px solid lightslategray;
+                 border-bottom: 10px solid lightslategray;
                 padding: 15px;
             }
 
