@@ -22,6 +22,7 @@ body{
                 margin-left:auto;
                 margin-right:auto;
       z-index:1;
+      postition:absolute;
       
         }
 
@@ -70,7 +71,7 @@ body{
                 border: 2px solid lightslategray;
                 border-top: 10px solid lightslategray;
                  border-bottom: 10px solid lightslategray;
-                padding: 15px;
+                padding: 30px;
                 background-color:rgb(184, 222, 203);
             }
 
