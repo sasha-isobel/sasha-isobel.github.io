@@ -63,23 +63,12 @@ p {
 
             #shelter-pic
             {
-                float: left;
-                margin-right: 25px;
-                margin-bottom: 30px;
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+                width:60%;
             }
-            #fire-pic {
-                float: left;
-                margin-right: 25px;
-                margin-bottom: 15px;
-                height:100px;
-
-            }
-
-            #weather-pic {
-                float: left;
-                margin-right: 25px;
-                margin-bottom: 30px;
-            }
+           
 
             #footer {
                 background-color: rgb(219, 235, 255);
