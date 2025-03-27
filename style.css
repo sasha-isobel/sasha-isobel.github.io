@@ -8,8 +8,7 @@ p {
     width: 80%;
 }
   #camo {
-            width: 75em;
-            height: 300px;
+            width: 75%;
             position: absolute;
             margin: 10px;
             z-index: 1;
@@ -71,7 +70,8 @@ p {
             #fire-pic {
                 float: left;
                 margin-right: 25px;
-                margin-bottom: 30px;
+                margin-bottom: 15px;
+                height:100px;
 
             }
 
