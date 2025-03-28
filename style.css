@@ -14,6 +14,7 @@ body{
     margin-right:auto;
     width: 80%;
     color:white;
+    padding:10px;
     
 }
   #camo {
@@ -70,7 +71,7 @@ body{
                 border: 2px solid lightslategray;
                 border-top: 10px solid lightslategray;
                  border-bottom: 10px solid lightslategray;
-                padding: 30px;
+                padding: 10px;
                 background-color:rgb(184, 222, 203);
             }
 
