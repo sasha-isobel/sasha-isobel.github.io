@@ -31,7 +31,7 @@ body{
              h1 {
                 font-family: "Trebuchet MS", Helvetica, sans-serif;
                 color: ghostwhite;
-                
+                text-align:centre;
                  left:750px
             position: absolute;
             z-index: 2;
