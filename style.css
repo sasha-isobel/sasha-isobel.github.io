@@ -1,4 +1,11 @@
 <style>
+
+ a:link {
+                color:rgb(119, 218, 242);
+            }
+            a:visited {
+                color: purple;
+                
 body{
     background-color:rgb(190, 222, 182);
 }
