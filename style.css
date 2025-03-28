@@ -1,4 +1,11 @@
 <style>
+
+#log {
+    position:absolute;
+    top:100px;
+    left:30px;
+    z-index:3;
+}
 body{
     background-color:rgb(190, 222, 182);
 }
