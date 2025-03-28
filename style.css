@@ -105,9 +105,7 @@ body{
                 clear: both;
                 font-family: Candara, sans-serif;
                 color:white;
-                font-style:italic;
-                text-decoration:underline dotted;
-
+                
             }
             .parks {
                 font-family: Candara, sans-serif;
@@ -116,6 +114,9 @@ body{
             h4 {
                 font-family: Candara, sans-serif;
                 font-size: 1.3em;
+                font-style:italic;
+                text-decoration:underline dotted;
+
             }
             .directions
             {
