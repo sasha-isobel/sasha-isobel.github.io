@@ -124,6 +124,12 @@ body{
                 text-decoration:underline dotted;
 
             }
+            #stuff{
+               font-family: Candara, sans-serif;
+                font-size: 1.3em;
+                font-style:italic;
+                text-decoration:underline dotted;
+            }
             .directions
             {
                 font-family: Candara, sans-serif;
