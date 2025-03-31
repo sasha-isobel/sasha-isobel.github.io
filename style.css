@@ -4,8 +4,9 @@
 
 #camp
 {
-                float:left;
-                margin:10px;
+  display:block;
+    margin-left:auto;
+    margin-right:auto;        
 }
 #abri {
     background-color:rgb(190, 222, 182);
